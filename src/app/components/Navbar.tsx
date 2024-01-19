@@ -1,4 +1,5 @@
-import { Menu, Sunset, User } from "./icons";
+import Link from "next/link";
+import { Github, Menu, Sunset, User } from "./icons";
 
 export function Navbar() {
   return (
@@ -11,6 +12,11 @@ export function Navbar() {
         <h3 className="hidden md:block">Home</h3>
       </div>
       <div className="flex items-center gap-6">
+        <Link href={"https://github.com/rch-goldsnaker"}>
+          <div className="w-6 h-6">
+            <Github />
+          </div>
+        </Link>
         <div className="w-6 h-6">
           <User />
         </div>
