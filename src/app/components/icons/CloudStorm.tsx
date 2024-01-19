@@ -1,4 +1,6 @@
-export const CloudStorm = (props) => (
+import { JSX, SVGProps } from "react";
+
+export const CloudStorm = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

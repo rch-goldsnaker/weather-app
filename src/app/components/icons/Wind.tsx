@@ -1,4 +1,6 @@
-export const Wind = (props) => (
+import { JSX, SVGProps } from "react";
+
+export const Wind = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"    
     viewBox="0 0 24 24"
